@@ -1,0 +1,77 @@
+<html><head><title>Write the Results of Simulated Annealing to File</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>write_results(likelihood)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   write_results">
+<param name="keyword" value=" Write the Results of Simulated Annealing to File">
+</object>
+
+
+<h2>Write the Results of Simulated Annealing to File</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Takes the results produced by the function <code><a href="anneal.html">anneal</a></code> and
+writes them to a tab-delimited text file.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+write_results(results, filename, data = TRUE, print_whole_hist = FALSE)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>results</code></td>
+<td>
+The output list produced by the function 
+<code><a href="anneal.html">anneal</a></code>.</td></tr>
+<tr valign="top"><td><code>filename</code></td>
+<td>
+A string with the file and path to the file you wish to write.
+This will overwrite any existing files of that name.  This will not add any
+file extensions so remember to put on the appropriate one.</td></tr>
+<tr valign="top"><td><code>data</code></td>
+<td>
+If TRUE, the <code>source_dataset</code> member of <code>results</code> is 
+written to the file; if FALSE, it is not. Large datasets can inflate the
+size of output files.</td></tr>
+<tr valign="top"><td><code>print_whole_hist</code></td>
+<td>
+If TRUE, the entire likelihood history of the run is printed; if FALSE, it is not. Long runs can have rather long histories.</td></tr>
+</table>
+
+<h3>Value</h3>
+
+<p>
+A file with the contents of <code>results</code> written as tab-delimited text.</p>
+
+<h3>See Also</h3>
+
+<p>
+<code><a href="anneal.html">anneal</a></code>
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Assuming you have performed a simulated annealing run and placed the 
+## results in an object called "my_results"...
+## Not run: write_results(my_results, "c:\results.txt")
+</pre>
+
+
+
+<hr><div align="center">[Package <em>likelihood</em> version 1.3 <a href="00Index.html">Index]</a></div>
+
+</body></html>

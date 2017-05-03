@@ -1,0 +1,65 @@
+<html><head><title>Changes for Users of likelihood package 0.1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="Rchm.css">
+</head>
+<body>
+
+<table width="100%"><tr><td>Previous Users(likelihood)</td><td align="right">R Documentation</td></tr></table><object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+<param name="keyword" value="R:   Previous Users">
+<param name="keyword" value=" Changes for Users of likelihood package 0.1">
+</object>
+
+
+<h2>Changes for Users of likelihood package 0.1</h2>
+
+
+<h3>Description</h3>
+
+<p>
+Changes that must be made for scripts prepared under likelihood package 0.1
+</p>
+
+
+<h3>Critical Change</h3>
+
+<p>
+R scripts that use the <code><a href="anneal.html">anneal</a></code> function will mostly not work in
+<code>likelihood</code> 1.0 without one change. The par list argument for 
+<code><a href="anneal.html">anneal</a></code> and <code><a href="likeli.html">likeli</a></code> has been split into two list
+arguments, <code>par</code> and <code>var</code>. <code>par</code> is for model parameters, those
+values that will be varied in a simulated annealing run. <code>var</code> is for all
+other non-varying data and arguments needed by the model. Since this
+distinction is unimportant when using the function <code><a href="likeli.html">likeli</a></code> alone,
+scripts using only that function will work as-is, although you should still
+update them if possible.
+</p>
+<p>
+To fix a script for <code><a href="anneal.html">anneal</a></code>, note the list elements for the
+<code>par_lo</code> and <code>par_hi</code> arguments. These are the elements that remain
+in <code>par</code>. Place all other elements in <code>par</code> in a new list, and pass
+it as <code>var</code>.
+</p>
+
+
+<h3>Other New Options</h3>
+
+<p>
+<code><a href="anneal.html">anneal</a></code> can calculate the parameter variance / covariance
+matrix and standard errors, and add these to its output. Use the new
+<code><a href="anneal.html">anneal</a></code> argument <code>hessian = TRUE</code>.
+</p>
+<p>
+<code><a href="anneal.html">anneal</a></code> can perform a global search on parameters.
+Omitting a bound means that the search occurs to positive or negative
+infinity, or both.
+</p>
+<p>
+You have more control over how <code><a href="anneal.html">anneal</a></code> calculates support
+limits, with the new arguments <code>delta</code> and <code>slimit</code>.
+</p>
+
+
+
+<hr><div align="center">[Package <em>likelihood</em> version 1.2 <a href="00Index.html">Index]</a></div>
+
+</body></html>

@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HEAD></HEAD><HTML><BODY>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package likelihood:  Contents">
+<param name="Local" value="00Index.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package likelihood:  R objects">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="likelihood-package">
+<param name="Local" value="likelihood-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="anneal">
+<param name="Local" value="anneal.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="crown_rad">
+<param name="Local" value="crown_rad.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="from_sortie">
+<param name="Local" value="from_sortie.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="likeli">
+<param name="Local" value="likeli.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="likelihood">
+<param name="Local" value="likelihood-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Likelihood Calculation">
+<param name="Local" value="likelihood_calculation.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="likeli_4_optim">
+<param name="Local" value="likeli_4_optim.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="predicted_results">
+<param name="Local" value="predicted_results.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Previous Users">
+<param name="Local" value="previous_users.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Simulated Annealing Algorithm">
+<param name="Local" value="simulated_annealing_algorithm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="support_limits">
+<param name="Local" value="support_limits.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="write_results">
+<param name="Local" value="write_results.html">
+</OBJECT>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package likelihood:  Titles">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Calculate Likelihood">
+<param name="Local" value="likeli.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Calculate Model Predicted Results">
+<param name="Local" value="predicted_results.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Calculate Support Limits">
+<param name="Local" value="support_limits.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Changes for Users of likelihood package 0.1">
+<param name="Local" value="previous_users.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Dataset of Tree DBH and Crown Radius">
+<param name="Local" value="crown_rad.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Details on the Calculation of Likelihood">
+<param name="Local" value="likelihood_calculation.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Details on the Simulated Annealing Algorithm">
+<param name="Local" value="simulated_annealing_algorithm.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Generated Tree Allometry Dataset">
+<param name="Local" value="from_sortie.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Package for maximum likelihood estimation ">
+<param name="Local" value="likelihood-package.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Perform Simulated Annealing for Maximum Likelihood Estimation">
+<param name="Local" value="anneal.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Use Likelihood with Optim">
+<param name="Local" value="likeli_4_optim.html">
+</OBJECT>
+<LI> <OBJECT type="text/sitemap">
+<param name="Name" value="Write the Results of Simulated Annealing to File">
+<param name="Local" value="write_results.html">
+</OBJECT>
+</UL>
+</UL>
+</BODY></HTML>
