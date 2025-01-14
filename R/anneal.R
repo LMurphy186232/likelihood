@@ -730,13 +730,13 @@ hessian = TRUE, delta = 100, slimit = 2, c = 2, note = "", show_display = TRUE, 
                                           else pdfname<-"User-defined function"
 
     # Find out what the user called the model
-    model_name<-""
-    base_all<-ls(.GlobalEnv)
-    for (i in 1:length(base_all)) {
-      if (identical(get(base_all[i], pos=.GlobalEnv),model)) {
-        model_name<-base_all[i]
-      }
-    }
+    model_name <- deparse(substitute(model))
+    #base_all<-ls(.GlobalEnv)
+    #for (i in 1:length(base_all)) {
+     # if (identical(get(base_all[i], pos=.GlobalEnv),model)) {
+     #   model_name<-base_all[i]
+     # }
+    #}
 
     # Calculate the standard errors, if requested
     if (hessian) {
